@@ -1,0 +1,254 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+
+ body{
+  font-family: 'Nunito', sans-serif;
+ }
+ h1{
+  font-family: 'Rubik', sans-serif;
+ }
+header {
+  padding: 156px 0 100px;
+  
+}
+
+section {
+  padding: 150px 0;
+}
+.navbar-dark .navbar-brand {
+  color: black;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+}
+.responsive{
+  width: 10%;
+  height: auto;
+}
+.hero{
+  background-color: #f5f3f3;
+}
+.but{
+  background-color:#bba116;
+  color: white;
+  border-radius: 0px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 10px;
+
+}
+.btn:hover{
+  color: #bba116;
+  background-color: #fff;
+  border-color: #bba116;
+
+}
+.lead{
+  margin-top: 30px;
+}
+.img{
+  width: 70%;
+  height: auto;
+}
+.span{
+  background-color: #bba116;
+    float: left;
+    margin-left: -12px;
+}
+.ccircle{
+  position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: transparent;
+    background: #F6F6F6;
+    margin: 0 auto;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.circle{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: transparent;
+  background:#bba116;
+  margin:7px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.flat{
+  width: 80%;
+  height: auto;
+  margin: 6px;
+}
+ .col-md-4:hover .ccircle {
+	border-color: #bba116;
+}
+
+.carousel-content {
+  color:black;
+  display:flex;
+  align-items:center;
+}
+
+#text-carousel {
+width: 100%;
+height: auto;
+padding: 50px;
+}
+.testimonial-section {
+  background: #FFFFFF;
+  padding-top: 50px;
+}
+
+.testimonial-section h1 {
+ font-family: Poppins;
+ font-size: 34px;
+ font-weight: 500;
+ color: #111111;
+ margin-top: 3em;
+}
+
+.testimonial-section .sub {
+ font-family: Roboto;
+ font-size: 16px;
+ font-weight: 300;
+ color: #111111;
+ line-height: 1.5;
+ margin-top: 30px;
+ letter-spacing: 1px;
+}
+
+.testimonials {
+ margin-top: 4em;
+ width: 100%;
+ margin-bottom: 4em;
+}
+
+.testimonials-2 {
+ margin-bottom: 5em;
+}
+
+.testimonial-single img {
+ width:80px;
+ height:80px;
+}
+
+.testimonial-text h3 {
+ font-family: Roboto;
+ font-size: 16px;
+ font-weight: 300;
+ letter-spacing: 0;
+ line-height: 1.5;
+ color: #000000;
+}
+
+.testimonial-text .ion {
+ display: inline-block;
+ margin-top: 20px;
+ font-size: 14px;
+ color: #ff8000;
+}
+
+.testimonial-text p {
+ font-family: Poppins;
+ font-size: 14px;
+ font-weight: 300;
+ padding: 20px 10px 20px 10px;
+ letter-spacing: 1px;
+ line-height: 1.5;
+ color: #111111;
+}
+
+
+
+.image{
+
+  height: 10%;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+
+}
+.text{
+  color: #000000;
+  margin-top: 60px;
+  text-align: center;
+}
+.icon{
+  width: 20%;
+  height: auto;
+
+}
+.service-icon{
+  margin-top: 70px;
+}
+.square{
+  background-color: white;
+    color: black;
+    width: 80%;
+    height: 100%;
+     margin-top: 94px; 
+     margin-bottom: 32px; 
+  border-radius: 0px;
+  margin-left: 43px;
+	box-shadow: 0px 3px 10px 2px rgba(204, 204, 204, 0.5);
+}
+.cart{
+  width: 12%;
+  height: auto;
+  margin: 75px;
+}
+.logo{
+  width: 100%;
+  height: auto;
+}
+.final{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.subscribe-form .mail {
+  background-color: #F9F9F9;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  height: 40px;
+  padding: 0 150px 0 20px;
+  box-shadow: none;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  transition: all .3s;
+}
+.subscribe-form .submit-button {
+  font-size: 0.9em;
+  height: 40px;
+  border: 2px solid;
+  border-radius: 0 5px 5px 0;
+  margin: 0;
+  padding: 0 25px 0 25px;
+  border-color: #bba116;
+  background-color: #bba116;
+  color: #FFFFFF;
+  box-shadow: 0 0 1px transparent;
+  outline: none;
+}
+.response{
+  width: 10%;
+    height: auto;
+    margin: 40px;
+    border-radius: 100%;
+}
